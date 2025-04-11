@@ -1,0 +1,83 @@
+.primary {
+    background-color: black;
+    padding: 30px;
+    width: 50%;
+    height: 750px;
+    margin: auto;
+  }
+  .s1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: space-between;
+  }
+  .img {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .ii {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+  .ab {
+    background: linear-gradient(to top, rgb(221, 6, 221), #fcae72);
+    width: 100%;
+    height: 70%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+  }
+  .ac {
+    background: linear-gradient(to right, blue, rgb(235, 74, 235));
+    width: 100%;
+    height: 25%;
+    border-radius: 15px;
+  }
+  .second {
+    background-color: rgb(255, 102, 0);
+    width: 100%;
+    height: 25%;
+    border-radius: 15px;
+    margin-bottom: 0;
+  }
+  .three {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    width: 270%;
+    height: 30%;
+    margin-top: 5%;
+  }
+  .t1, .t2, .t3 {
+    background: linear-gradient(to right, lightblue, blue);
+    width: 60%;
+    height: 150%;
+    border-radius: 40px;
+    margin-bottom: -10px;
+  }
+  .many {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    width: 270%;
+    height: 30%;
+    margin-top: 5%;
+  }
+  .m1, .m2, .m3, .m4, .m5, .m6 {
+    background: linear-gradient(to right, pink, rgb(248, 165, 179));
+    width: 60%;
+    height: 150%;
+    border-radius: 40px;
+    margin-bottom: -5%;
+  }
